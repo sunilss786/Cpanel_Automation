@@ -108,7 +108,7 @@ public class stableBuild {
 				 WebElement eleText = null;
 				 try
 				 {
-					 eleText=driver.findElement(By.xpath(".//*[text()='Click here to refresh']"));
+					 eleText=driver.findElement(By.xpath(".//*[text()='Click here to refresh'] | /html/body"));
 				 }
 				 catch (Exception e) 
 				 {
