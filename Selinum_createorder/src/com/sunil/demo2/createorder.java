@@ -47,7 +47,7 @@ public class createorder {
 		// Enter UserName
 		 driver.findElement(By.id("username")).sendKeys("suniltest");
 		 // Enter Password
-		 driver.findElement(By.id("password")).sendKeys("Grab@789");  //Grab@789
+		 driver.findElement(By.id("password")).sendKeys("");  
 		// Wait For Page To Load
 		 driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 
