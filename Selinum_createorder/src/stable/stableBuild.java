@@ -31,7 +31,7 @@ public class stableBuild {
 		 driver.findElement(By.name("username")).sendKeys("sunil");
 		 
 		 // Enter Password
-		 driver.findElement(By.name("password")).sendKeys("Victory@7777");   //Victory@7777
+		 driver.findElement(By.name("password")).sendKeys("");
 		 driver.findElement(By.xpath(".//*[@id='m_login_signin_submit']")).click();
 		 Thread.sleep(8000);
 		 //JavascriptExecutor js = (JavascriptExecutor)driver;
